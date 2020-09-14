@@ -1,0 +1,64 @@
+기본개념
+
+0. git & git hub
+
+- git과 github는 서로 다른 것,
+  그러나 연관되어있음
+
+- git 
+   1) 모든 파일의 변화를 항상 기록하고 있다.
+   2) 같은 파일에 대한 각기 다른 버전 보관 가능
+   3) 각기 다른 3개 파일을 한번에 관리가 가능
+   4) 같은 파일을 가지고 여러명과 함께 작업 가능  
+    - 하나의 파일을 가지고 각자가 작업이 가능하며,
+     작업한 파일들은 각기 다르게 보관됨
+    -> ex) 파일과 git 히스토리를 에디터와 공유 가능 
+          Q. 어떻게? 
+         A. 깃 허브를 통해 
+
+- github 
+    1) 클라우드에 있는 git 제공자
+    2) 내 컴퓨터에 있는 git 히스토리 가져와서 
+      깃허브 웹사이트에 푸쉬하는 것 
+    -> 에디터는 이러한 것을 가져올 수 있어서,
+       모든 변화 과정을 확인 할 수 있다.
+
+     3) 즉, 우리 모두의 깃 기록을 깃허브 클라우드에 
+         올릴 수 있는 것 
+     -> 이를 통해, 변화 내용을 올리고, 교환이 가능하게 됨 
+
+
+
+1) https://www.youtube.com/watch?v=tC8Xj_Bf8Fw
+
+2) https://www.youtube.com/watch?v=rhP5pseOJc0&list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4no81
+
+1. git baash 설치
+
+
+2. git - new repository 생성
+
+3.  Web상의 git과 연결될 local folder 인
+    root 폴더 생성
+
+4. git 환경 설정
+  1) git config --global user.name
+   // global : 컴퓨터 전체에서 동일한 옵션 사용 가능하게 
+  2) git config --global user.email
+
+4. Web상의 git과 연결될 local folder 인
+    root 폴더 연결
+  // 컴퓨터의 폴더와 github의 동기화 과정 
+  
+ 1) 폴더 오른쪽 클릭 후 git bash here 클릭 
+ 2) cd 폴더 경로
+ 3) git clone 'repository 주소'
+   // repository 내의 모든 파일들이 내 파일 안으로 
+    clone 이 되는 것 
+
+   // 이렇게 되면 
+    - 우리 컴퓨터 : local repository
+    - git hub : remote repository
+
+ 
+  
